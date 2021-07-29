@@ -1,0 +1,53 @@
+#gameFloor{
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 750px;
+
+}
+#buttonsMap{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 700px;
+    
+}
+#group{
+    display: inline-flex;
+}
+canvas {
+    position: relative;
+    top:6%;
+    width: 650px;
+    height: 650px;
+    background-color: beige;
+    border: 2px solid rgb(148, 148, 148);
+}
+
+#buttonsMap .center button{
+    background-color: transparent;
+    color: rgba(0,250,250,1);
+    font-size: xx-large;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.global{
+    background-color: transparent;
+    color: rgba(0,250,250,1);
+    width: 100%;
+    font-size: xx-large;
+    height: 50px;
+    display: block;
+}
+
+section #alarmStat{
+    display: inline-flex;
+    background-color: beige;
+    height: 90px;
+    width: 100%;
+}

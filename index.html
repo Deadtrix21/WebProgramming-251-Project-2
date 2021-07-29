@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/root.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="group">
+        <section id="gameFloor">
+        </section>
+        <section id="buttonsMap">
+            <section>
+                <button class="global" onclick="startGame()">Start</button>
+                <br><br><br><br>
+            </section>
+            <section class="center">
+                <audio id="playerAudio">
+                    <source src="src/sound/audio.mp3" type="audio/mpeg">
+                </audio>
+                <button id="up" disabled="disabled">↑</button>
+                <button id="left" disabled="disabled">←</button>
+                <button id="right" disabled="disabled">→</button>
+                <button id="down" disabled="disabled">↓</button>
+            </section>
+            <br>
+            <section>
+                <br><br><br><br>
+                Alarm Status
+                <section id="alarmStat">
+
+                </section>
+            </section>
+            
+        </section>
+    </section>
+    
+</body>
+<script src="src/script/main.js"></script>
+</html>
